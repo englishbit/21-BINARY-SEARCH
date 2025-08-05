@@ -2,6 +2,7 @@
 #define MAX 100000
 int matrix[MAX][MAX];
 
+//logic for function
 int binarysearch_in_row(int array[],int n,int target){
     int lo=0,hi=n-1;
     while(lo<=hi){
@@ -88,4 +89,5 @@ int main(){
 
 
     return 0;
+
 }
