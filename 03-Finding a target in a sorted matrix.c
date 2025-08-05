@@ -64,6 +64,7 @@ int main(){
     }
 
 
+    //logic for output
     if(targetrow!=-1){
         int result=binarysearch_in_row(matrix[targetrow],n,target);
 
@@ -76,18 +77,7 @@ int main(){
    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 
 }
+
