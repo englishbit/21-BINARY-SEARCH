@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main(){
+    //logic for input
     int n;
     scanf("%d",&n);
+
+    //logic for special case
     if(n<0){
         printf("Invalid input\n");
         return 1;
@@ -15,6 +18,8 @@ int main(){
         return 0;
     }
 
+
+    //logic for square root
     int lo=0;
     int hi=n;
     
@@ -25,7 +30,8 @@ int main(){
         }else if((mid*mid)<n){
             lo=mid+1;
         }else{
-            
+
+            //logic for output
             printf("The square root of n is %d\n",mid);
             return 0;
         
@@ -34,8 +40,9 @@ int main(){
 
 
 
-
+        //logic for output
         printf("The square root of n is %d\n", hi);
 
     return 0;
+
 }
